@@ -1,0 +1,31 @@
+.catalog-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+}
+
+.busca-card {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  margin: 20px 10px ;
+  background-color: #EDEDED;
+}
+
+.busca-input {
+  width: 200px;
+  height: 40px;
+  margin: 22px 0 24px 10px;
+  color: #A7A7A7;
+  border-radius: 5px 0 0 5px;
+  border: none;
+}
+
+.btn-catalgo-busca {
+  width: 77px;
+  height: 40px;
+  border-radius: 0 10px 10px 0 !important;  
+  font-size: 14px;
+  line-height: 16px;
+}
