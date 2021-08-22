@@ -1,0 +1,57 @@
+.home-container {  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-card {  
+  width: 300px;    
+  margin: 20px 10px 20px 10px;
+  background-color: #00285F;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.car-image {
+  margin: 62px 28px 35px 28px;
+}
+
+.home-title {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  color : #fff;
+  margin-bottom: 15px;
+}
+
+.home-subtitle {
+  text-align: center;
+  font-size: 14px;
+  color : #fff;
+  margin-bottom: 51px;
+}
+
+.home-card-secondary {
+  width: 300px;    
+  display: flex;
+  margin-bottom: 120px;
+  flex-direction: column;
+  align-items: center;
+  background-color: #EDEDED;
+}
+
+.btn-ver-catalogo {
+  margin: 28px 63px 0px 63px;
+  width: 174px;
+  height: 40px;
+  font-size: 14px;
+}
+
+.home-card-secondary-text {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 10px 0 25px 0; 
+}

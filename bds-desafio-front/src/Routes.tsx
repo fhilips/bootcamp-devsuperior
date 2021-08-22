@@ -8,7 +8,7 @@ const Routes = () => (
     <Navbar/>
     <Switch>
       <Route path="/">
-          <Home />
+          <Home />          
       </Route>
     </Switch>
   </BrowserRouter>
