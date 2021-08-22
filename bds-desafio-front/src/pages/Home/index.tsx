@@ -1,5 +1,6 @@
 
 import { ReactComponent as HomeCar } from 'assets/images/car-home.svg';
+import { Link } from 'react-router-dom';
 import './styles.scss';
 
 const Home = () => {
@@ -17,7 +18,9 @@ const Home = () => {
       </div>
 
       <div className="base-card home-card-secondary">
-        <button className="base-button btn-ver-catalogo">VER CATÁLOGO</button>
+        <button className="base-button btn-ver-catalogo">
+          <Link to="/catalogo">VER CATÁLOGO</Link> 
+        </button>
         <div className="home-card-secondary-text-container">
           <span className="home-card-secondary-text">
             Comece agora a navegar

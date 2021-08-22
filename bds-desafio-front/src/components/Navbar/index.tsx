@@ -5,9 +5,7 @@ import { Link, NavLink } from 'react-router-dom';
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-md navbar-light bg-primary main-nav">
-      <div className="container-fluid">
-        {' '}
-        {/* previne quebra de linha entre logo e itens */}
+      <div className="container-fluid">        
         <Link to="/" className="nav-logo-text">
           <h4>Carros Top</h4>
         </Link>
