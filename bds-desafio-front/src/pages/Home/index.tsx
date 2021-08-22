@@ -1,6 +1,7 @@
-import BaseCard from 'components/CarCard';
-import './styles.scss';
+
 import { ReactComponent as HomeCar } from 'assets/images/car-home.svg';
+import './styles.scss';
+
 const Home = () => {
   return (
     <section className="home-container">
