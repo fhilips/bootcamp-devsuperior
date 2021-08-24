@@ -1,9 +1,11 @@
 
+import Routes from "./Routes";
+import "assets/styles/custom.scss"
+import './App.scss'
+
 function App() {
   return (
-    <div className="App">
-        hello
-    </div>
+    <Routes/>
   );
 }
 

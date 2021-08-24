@@ -1,0 +1,56 @@
+.profile-container {
+  margin: 54px 0 124px 0;
+}
+
+.profile-card {
+  width: 1251px;
+  height: 334px;
+  border-radius: 16px;
+  background: #F5F5F5;
+
+  display: flex;
+  align-items: center;
+
+  .profile-image {
+    width: 247px;
+    height: 247px;
+    margin: 42px 29px 44px 38px;
+    border: 1px solid #000;
+  }
+
+  .profile-info-card {
+    display: flex;
+    flex-direction: column;
+    width: 902px;
+    height: 247px;
+    margin: 43px 35px 44px 0;
+    border-radius: 6px;
+    border: 1px solid #D9D9D9;
+    background: #FFFFFF;
+  }
+
+}
+
+.profile-info-title {
+  font-size: 20px;
+  line-height: 28px;
+  color: #1890FF;
+  margin: 8px 0 14px 14px;
+}
+
+.profile-info-content {
+  display: flex;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  border: 1px solid #D9D9D9;  
+  border-radius: 4px;
+  padding: 8px 0 8px 10px;
+  margin: 0px 15px 5px 15px;
+}
+
+.git-info-response {
+  color: #737373;
+  font-weight: normal;
+  margin-left: 3px;
+}
