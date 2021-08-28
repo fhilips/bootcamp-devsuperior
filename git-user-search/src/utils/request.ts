@@ -1,4 +1,4 @@
-import axios, { AxiosRequestConfig, Method } from 'axios';
+import axios, { Method } from 'axios';
 
 const BASE_URL = 'https://api.github.com/users';
 
