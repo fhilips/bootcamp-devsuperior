@@ -17,6 +17,10 @@
   margin-top: 54px;
 }
 
+.search-form {
+  display: flex;
+  flex-direction: column;
+}
 .search-title {
   font-weight: 500;
   font-size: 38px;
@@ -28,8 +32,7 @@
   width: 298px;
   height: 40px;
   border: 1px solid #D9D9D9;
-  padding-left: 17px;
-  color: #BFBFBF;
+  padding-left: 17px; 
   margin-bottom: 24px;
 }
 
