@@ -1,0 +1,19 @@
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-container button {
+    width: 384px;
+    height: 65px;
+    border-radius: 4px;
+}
+
+.btn h6 {
+    color: #000000;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+
